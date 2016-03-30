@@ -19,7 +19,9 @@ run main.py with params.
 For example, 
 
   $ python main.py 3 01001100011
-  
+
+==NOTE==
+
 if you type invalid param, it will print usage code :
 
 Usage : python main.py [signal type] [code]
