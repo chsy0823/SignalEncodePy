@@ -19,4 +19,13 @@ run main.py with params.
 For example, 
 
   $ python main.py 3 01001100011
+  
+if you type invalid param, it will print usage code :
+
+Usage : python main.py [signal type] [code]
+--Signal Type--
+1 : Manchester
+2 : Differential Manchester
+3 : Draw both
+
 
