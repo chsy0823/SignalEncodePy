@@ -24,10 +24,5 @@ For example,
 
 if you type invalid param, it will print usage code :
 
-Usage : python main.py [signal type] [code]
---Signal Type--
-1 : Manchester
-2 : Differential Manchester
-3 : Draw both
-
+![screenshot](screenshot/screenshot2.png)
 
