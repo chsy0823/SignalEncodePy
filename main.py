@@ -93,11 +93,10 @@ class ManchesterEncodeClass(CommonSignalEncodeClass):
 
         if (int)(self.codeSplit[0]) == 0 :
             self.currentPosY = 1
-            self.rawTurtle.goto(0+self.offsetX, self.size+self.offsetY);
+            self.rawTurtle.goto(0+self.offsetX, self.size+self.offsetY)
         else :
-            if (int)(self.codeSplit[0]) == 0 :
-                self.currentPosY = 0
-                self.rawTurtle.goto(0+self.offsetX, 0+self.offsetY);
+            self.currentPosY = 0
+            self.rawTurtle.goto(0+self.offsetX, 0+self.offsetY)
 
         self.rawTurtle.down()
 
